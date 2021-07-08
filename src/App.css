@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-size: 35%;
+  background-image: url("https://markraud.github.io/mr-portfolio/assets/images/dark-honeycomb.png");
+}
