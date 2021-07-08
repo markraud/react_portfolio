@@ -20,5 +20,7 @@ export default function Nav() {
         <li><a href="#contact">Conact</a></li>
       </ul>
     </div>
+
   );
+
 }

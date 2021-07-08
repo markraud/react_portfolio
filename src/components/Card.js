@@ -1,6 +1,6 @@
 import React from 'react';
 
-import paws from '../..assets/images/paws-4-yall.png';
+import paws from '../images/paws-4-yall.png';
 
 export default function Card() {
   return (
@@ -9,6 +9,7 @@ export default function Card() {
         <div className="col s12 m8 l8 offset-l2 offset-m2">
           <div className="card center-align">
             <div className="card-image">
+              {/* <img src="assets/images/paws-4-yall.png" alt='dogs' /> */}
               <img src={paws} alt='dogs' />
             </div>
             <div className="card-content grey lighten-2">
