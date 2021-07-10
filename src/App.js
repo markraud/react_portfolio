@@ -1,18 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
-import Nav from './components/Nav';
-import Main from './components/Main';
-
-import Contact from './components/Contact';
+import Header from './components/Header';
+import Project from './components/Project';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
 
     <div className="container">
-      <Nav />
-      <Main />
-      <Contact />
+      <Header />
+      <Project />
+      <Footer />
     </div>
   );
 }

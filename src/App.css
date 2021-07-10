@@ -39,7 +39,7 @@
 
 body {
   background-size: 35%;
-  background-image: url("https://markraud.github.io/mr-portfolio/assets/images/dark-honeycomb.png");
+  background-image: url("./images/dark-honeycomb.png");
 }
 
 #card-title {
@@ -65,9 +65,9 @@ i.fa {
 .basic-contact {
   padding-left: 20px;
 }
-.sidenav-phone {
+/* .sidenav-phone {
   padding-left: 35px;
-}
+} */
 
 #contact {
   height: auto;

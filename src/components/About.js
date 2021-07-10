@@ -1,10 +1,11 @@
 import React from 'react';
 
-import Card from './Card';
+export default function About() {
 
-export default function Main() {
   return (
-    <div>
+
+    < div >
+
       <div>
         <div id="about" className="card  blue-grey darken-1">
           <div className="card-content white-text">
@@ -19,10 +20,11 @@ export default function Main() {
           <div className="card-content">
             <div id="mywork" className="card-title white-text">My Work</div>
           </div>
-        </div></div>
+        </div>
+      </div>
 
-      <Card />
+    </div >
 
-    </div>
   );
+
 }
