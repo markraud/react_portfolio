@@ -10,8 +10,6 @@ export default function Contact() {
           <div className="col s12 m12 center-align">
             <div className="card blue-grey darken-1">
               <div className="card-content white-text">
-                <span className="card-title">Contact Info:</span>
-                {/* <p></p> */}
               </div>
               <div className="card-action">
                 <a href="tel:3037252585" className="waves-effect waves-light btn blue-grey darken-3"><i className="fa fa-phone fa-2x" />(303) 725-2585</a>
