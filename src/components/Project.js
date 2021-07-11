@@ -7,8 +7,8 @@ export default function Project() {
     <div>
       <div id="about" className="card  blue-grey darken-1">
         <div className="card-content white-text">
-          <span className="card-title">Project1</span>
-          <p>Hello from the project page.</p>
+          <span className="card-title">Paws 4 Y'all!</span>
+          <img src="../images/paws-4-yall.png" alt="Paws for yall" />
         </div>
       </div>
       <div id="about" className="card  blue-grey darken-1">

@@ -6,44 +6,16 @@ function ContentTabs({ currentPage, handlePageChange }) {
   return (
     <ul className='right'>
       <li>
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-        // Check to see if the currentPage is `About` and set class name to 'right. Otherwise, also set it to "right"
-        // className={currentPage === 'About' ? 'right' : 'right'}
-        >
-          About
-        </a>
+        <a href="#about" onClick={() => handlePageChange('About')}>About</a>
       </li>
       <li>
-        <a
-          href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-        // Check to see if the currentPage is `About` and set class name to 'right. Otherwise, also set it to "right"
-        // className={currentPage === 'Portfolio' ? 'right' : 'right'}
-        >
-          Portfolio
-        </a>
+        <a href="#portfolio" onClick={() => handlePageChange('Portfolio')}>Portfolio</a>
       </li>
       <li>
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-        // Check to see if the currentPage is `About` and set class name to 'right. Otherwise, also set it to "right"
-        // className={currentPage === 'Contact' ? 'right' : 'right'}
-        >
-          Contact
-        </a>
+        <a href="#contact" onClick={() => handlePageChange('Contact')}>Contact</a>
       </li>
       <li>
-        <a
-          href="#resume"
-          onClick={() => handlePageChange('Resume')}
-        // Check to see if the currentPage is `About` and set class name to 'right. Otherwise, also set it to "right"
-        // className={currentPage === 'Resume' ? 'right' : 'right'}
-        >
-          Resume
-        </a>
+        <a href="#resume" onClick={() => handlePageChange('Resume')}>Resume</a>
       </li>
     </ul>
   );

@@ -1,4 +1,3 @@
-// import React, { useState } from 'react';
 import React, { useState } from 'react';
 import ContentTabs from './ContentTabs';
 import About from './About';
@@ -7,7 +6,7 @@ import Contact from './Contact';
 import Resume from './Resume';
 
 function Content() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Contact');
 
   //determine which page to render
   const renderPage = () => {
@@ -34,6 +33,5 @@ function Content() {
     </div>
   );
 }
-
 
 export default Content;
