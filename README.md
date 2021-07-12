@@ -52,7 +52,7 @@ Minimal testing performed.
 
 [React Portfolio GitHub Repo](https://github.com/markraud/react_portfolio)
 
-[Deployed React Portfolio](https://www.google.com/)
+[Deployed React Portfolio](https://markraud.github.io/react_portfolio/)
 
 ## Questions
 
