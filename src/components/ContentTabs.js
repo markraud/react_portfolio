@@ -6,22 +6,16 @@ function ContentTabs({ currentPage, handlePageChange }) {
   return (
     <ul className='right'>
       <li>
-        <a href="/" onClick={() => {
-          currentPage = 'About'
-          handlePageChange('About')
-        }}>About</a>
+        <a href="#about" onClick={() => handlePageChange('About')}>About</a>
       </li>
       <li>
-        <a href="/" onClick={() => {
-          currentPage = 'Portfolio';
-
-        }}>Portfolio</a>
+        <a href="#portfolio" onClick={() => handlePageChange('Portfolio')}>Portfolio</a>
       </li>
       <li>
-        <a href="/" onClick={() => handlePageChange('Contact')}>Contact</a>
+        <a href="#contact" onClick={() => handlePageChange('Contact')}>Contact</a>
       </li>
       <li>
-        <a href="/" onClick={() => handlePageChange('Resume')}>Resume</a>
+        <a href="#resume" onClick={() => handlePageChange('Resume')}>Resume</a>
       </li>
     </ul>
   );
