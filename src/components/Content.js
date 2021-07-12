@@ -6,7 +6,8 @@ import Contact from './Contact';
 import Resume from './Resume';
 
 function Content() {
-  const [currentPage, setCurrentPage] = useState('Contact');
+  const [currentPage, setCurrentPage] = useState('About');
+
 
   //determine which page to render
   const renderPage = () => {
@@ -14,6 +15,7 @@ function Content() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
+      console.log(currentPage);
       return <Portfolio />;
     }
     if (currentPage === 'Contact') {
