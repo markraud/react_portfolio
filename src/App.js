@@ -1,12 +1,12 @@
-// import logo from './logo.svg';
 import './App.css';
-import Nav from './components/Nav';
-import Content from './components/Content';
+import Header from './components/Header';
+import Home from './components/Home'
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
+
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -14,13 +14,13 @@ function App() {
   return (
     <Router>
       <div className="container">
-        <Nav />
-        {/* <Content /> */}
-        <Route path="/" component={About} />
-        <Route path="/About" component={About} />
-        <Route path="/Portfolio" component={Portfolio} />
-        <Route path="/Contact" component={Contact} />
-        <Route path="/Resume" component={Resume} />
+        <Header />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/About" component={About} />
+        <Route exact path="/Portfolio" component={Portfolio} />
+        <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/Resume" component={Resume} />
         <Footer />
       </div>
     </Router>

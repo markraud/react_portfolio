@@ -1,6 +1,5 @@
 import React from 'react';
-import ContentTabs from './ContentTabs';
-// need to import Link from react router dom
+
 import { Link } from 'react-router-dom';
 
 function Nav() {
@@ -11,8 +10,8 @@ function Nav() {
       <nav>
         <div className="nav-wrapper  blue-grey darken-1">
           <a href="#!" className="brand-logo left">Mark Raudenbush</a>
-          {/* <ContentTabs /> */}
-          <ul className="right hide-on-med-and-down">
+          <ul className="right">
+            <li><Link to="/home">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/Portfolio">Portfolio</Link></li>
             <li><Link to="/Contact">Contact</Link></li>
