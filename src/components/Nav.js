@@ -1,6 +1,7 @@
 import React from 'react';
 import ContentTabs from './ContentTabs';
 // need to import Link from react router dom
+import { Link } from 'react-router-dom';
 
 function Nav() {
 
