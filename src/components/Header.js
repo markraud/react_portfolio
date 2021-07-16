@@ -7,7 +7,6 @@ function Header() {
 
     < div >
       <div className="nav-wrapper  blue-grey darken-1">
-        <a href="#!" className="brand-logo left">Mark Raudenbush</a>
         <Nav />
       </div>
     </div >

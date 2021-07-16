@@ -85,3 +85,7 @@ i.fa {
 .portfolioLinks {
   color: antiquewhite;
 }
+
+#mugshot {
+  max-width: 150px;
+}

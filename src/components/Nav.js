@@ -11,7 +11,6 @@ function Nav() {
         <div className="nav-wrapper  blue-grey darken-1">
           <a href="#!" className="brand-logo left">Mark Raudenbush</a>
           <ul className="right">
-            <li><Link to="/home">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/Portfolio">Portfolio</Link></li>
             <li><Link to="/Contact">Contact</Link></li>
