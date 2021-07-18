@@ -66,9 +66,9 @@ export default function Project() {
                     <span className="card-title">Password Generator</span>
                     <img src={passwordGen} alt="password generator" class='portfolioImages' />
                     <div>
-                        <a href='https://github.com/markraud/password-generator' class='portfolioLinks' target="_blank">Link to Site</a> <br>
+                        <a href='https://markraud.github.io/password-generator/' class='portfolioLinks' target="_blank">Link to Site</a> <br>
                         </br>
-                        <a href='https://markraud.github.io/password-generator/' class='portfolioLinks' target="_blank">GitHub Repo</a>
+                        <a href='https://github.com/markraud/password-generator' class='portfolioLinks' target="_blank">GitHub Repo</a>
                     </div>
                 </div>
             </div >
