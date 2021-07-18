@@ -17,9 +17,9 @@ export default function Project() {
                             <span className="card-title">Paws 4 Y'all!</span>
                             <img src={paws} alt="Paws for yall" class='portfolioImages' />
                             <div>
-                                <a href='https://paws4yall.herokuapp.com/' class='portfolioLinks' target="_blank">Link to Site</a> <br>
+                                <a href='https://paws4yall.herokuapp.com/' class='portfolioLinks' target="_blank" rel="noreferrer">Link to Site</a> <br>
                                 </br>
-                                <a href='https://github.com/markraud/pet-adoption' class='portfolioLinks' target="_blank">GitHub Repo</a>
+                                <a href='https://github.com/markraud/pet-adoption' class='portfolioLinks' target="_blank" rel="noreferrer">GitHub Repo</a>
                             </div>
                         </div>
                     </div>
@@ -31,9 +31,9 @@ export default function Project() {
                     <span className="card-title">Weather Dashboard</span>
                     <img src={weather} alt="weather dashboard" class='portfolioImages' />
                     <div>
-                        <a href='https://markraud.github.io/weather-dashboard/' class='portfolioLinks' target="_blank">Link to Site</a> <br>
+                        <a href='https://markraud.github.io/weather-dashboard/' class='portfolioLinks' target="_blank" rel="noreferrer">Link to Site</a> <br>
                         </br>
-                        <a href='https://github.com/markraud/weather-dashboard' class='portfolioLinks' target="_blank">GitHub Repo</a>
+                        <a href='https://github.com/markraud/weather-dashboard' class='portfolioLinks' target="_blank" rel="noreferrer">GitHub Repo</a>
                     </div>
                 </div>
             </div >
@@ -43,9 +43,9 @@ export default function Project() {
                     <span className="card-title">Work Day Scheduler</span>
                     <img src={workday} alt="work day scheduler" class='portfolioImages' />
                     <div>
-                        <a href='https://markraud.github.io/work-day-scheduler/' class='portfolioLinks' target="_blank">Link to Site</a> <br>
+                        <a href='https://markraud.github.io/work-day-scheduler/' class='portfolioLinks' target="_blank" rel="noreferrer">Link to Site</a> <br>
                         </br>
-                        <a href='https://markraud.github.io/work-day-scheduler/' class='portfolioLinks' target="_blank">GitHub Repo</a>
+                        <a href='https://markraud.github.io/work-day-scheduler/' class='portfolioLinks' target="_blank" rel="noreferrer">GitHub Repo</a>
                     </div>
                 </div>
             </div >
@@ -55,9 +55,9 @@ export default function Project() {
                     <span className="card-title">Code Quiz</span>
                     <img src={codeQuiz} alt="code quiz" class='portfolioImages' />
                     <div>
-                        <a href='https://markraud.github.io/code-quiz/' class='portfolioLinks' target="_blank">Link to Site</a> <br>
+                        <a href='https://markraud.github.io/code-quiz/' class='portfolioLinks' target="_blank" rel="noreferrer">Link to Site</a> <br>
                         </br>
-                        <a href='https://github.com/markraud/code-quiz' class='portfolioLinks' target="_blank">GitHub Repo</a>
+                        <a href='https://github.com/markraud/code-quiz' class='portfolioLinks' target="_blank" rel="noreferrer">GitHub Repo</a>
                     </div>
                 </div>
             </div >
@@ -66,9 +66,9 @@ export default function Project() {
                     <span className="card-title">Password Generator</span>
                     <img src={passwordGen} alt="password generator" class='portfolioImages' />
                     <div>
-                        <a href='https://markraud.github.io/password-generator/' class='portfolioLinks' target="_blank">Link to Site</a> <br>
+                        <a href='https://markraud.github.io/password-generator/' class='portfolioLinks' target="_blank" rel="noreferrer">Link to Site</a> <br>
                         </br>
-                        <a href='https://github.com/markraud/password-generator' class='portfolioLinks' target="_blank">GitHub Repo</a>
+                        <a href='https://github.com/markraud/password-generator' class='portfolioLinks' target="_blank" rel="noreferrer" >GitHub Repo</a>
                     </div>
                 </div>
             </div >
@@ -77,9 +77,9 @@ export default function Project() {
                     <span className="card-title">Tech Blog</span>
                     <img src={techBlog} alt="tech blog" class='portfolioImages' />
                     <div>
-                        <a href='https://pure-falls-13112.herokuapp.com/' class='portfolioLinks' target="_blank">Link to Site</a> <br>
+                        <a href='https://pure-falls-13112.herokuapp.com/' class='portfolioLinks' target="_blank" rel="noreferrer">Link to Site</a> <br>
                         </br>
-                        <a href='https://github.com/markraud/tech-blog' class='portfolioLinks' target="_blank">GitHub Repo</a>
+                        <a href='https://github.com/markraud/tech-blog' class='portfolioLinks' target="_blank" rel="noreferrer">GitHub Repo</a>
                     </div>
                 </div>
             </div >
