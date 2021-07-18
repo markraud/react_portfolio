@@ -28,7 +28,7 @@ Access the website.
 
 ## Usage
 
-The website opens with the "About Me" section. By clicking on the links in the navigation bar in the header you can change the content of the center card (\***\*I have not been able to make the navigation links work yet. More work is being performed to correct this. Will be working with TAs on Tuesday\*\*\***).
+The website opens with the "About" section. By clicking on the links in the navigation bar in the header you can change the content of the center card.
 
 ![Screenshot](screenshot.jpg "Screenshot")
 
